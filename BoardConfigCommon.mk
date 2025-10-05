@@ -35,6 +35,9 @@ AUDIO_FEATURE_ENABLED_PROXY_DEVICE := true
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
+# Display
+TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/configs/config.fs
 
