@@ -1,0 +1,83 @@
+# Camera
+vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram,us.zoom.videomeetings
+
+# CNE
+persist.vendor.cne.feature=1
+
+# Data
+persist.vendor.data.mode=concurrent
+persist.vendor.ims.dropset_feature=1
+persist.vendor.overlay.izat.optin=rro
+persist.vendor.radio.atfwd.start=true
+persist.vendor.radio.force_on_dc=true
+persist.vendor.radio.ignore_dom_time=5
+ro.vendor.use_data_netmgrd=true
+
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.dex2oat-cpu-set=4,5,6,7
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.image-dex2oat-cpu-set=4,5,6,7
+dalvik.vm.image-dex2oat-threads=4
+
+# DPM
+persist.dpm.feature=1
+
+# Fuse storage
+persist.fuse_sdcard=true
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
+# LMKD
+ro.config.low_ram=false
+
+# Media
+media.aac_51_output_enabled=true
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+media.stagefright.enable-aac=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-http=true
+media.stagefright.enable-player=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-scan=true
+media.stagefright.thumbnail.prefer_hw_codecs=true
+mm.enable.smoothstreaming=true
+mmp.enable.3g2=true
+persist.mm.enable.prefetch=true
+ro.media.recorder-max-base-layer-fps=60
+vendor.mm.enable.qcom_parser=16777215
+
+# Netflix
+ro.netflix.bsp_rev=Q6125-17995-1
+
+# Radio
+persist.radio.NO_STAPA=1
+persist.rcs.supported = 1
+persist.rmnet.data.enable=true
+
+# RIL
+ril.subscription.types=RUIM
+
+# Sensor
+persist.vendor.sensors.enable.mag_filter=true
+
+# Crok's RAM Managment Fix
+ro.sys.fw.bg_apps_limit=128
+ro.vendor.qti.sys.fw.bg_apps_limit=128
+ro.vendor.qti.sys.fw.bservice_enable=true
+ro.vendor.qti.sys.fw.bservice_age=10000
+ro.vendor.qti.sys.fw.bservice_limit=128
+
+## Vsync
+debug.cpurend.vsync=false
+
+# Graphics
+debug.renderengine.backend=skiavkthreaded
+debug.renderengine.blur_algorithm=kawase
+ro.surface_flinger.supports_background_blur=1
