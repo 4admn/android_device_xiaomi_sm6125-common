@@ -77,6 +77,7 @@ BOARD_KERNEL_CMDLINE += kpti=off
 
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6125
 TARGET_KERNEL_CONFIG := vendor/trinket-perf_defconfig vendor/xiaomi-trinket.config
+TARGET_KERNEL_NO_GCC := true
 
 # Media
 TARGET_USES_ION := true
